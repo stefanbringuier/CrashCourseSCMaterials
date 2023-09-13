@@ -40,7 +40,7 @@ format:
         auto-animate-duration: 0.01
         embed-resources: true
     pdf:
-        pdf-engine: lualatex
+        pdf-engine: xelatex
         template-partials:
           - title.tex
         include-in-header:
@@ -84,85 +84,69 @@ Much of the notes derived from various sources, please checkout the [references]
 {{< include slides/_backmatter.qmd >}}
 
 
-I. Introduction
-Slide 1: Title Slide
-Slide 2: Objectives of the Presentation
-Slide 3: Overview of Topics Covered
-Slide 4: Importance of Superconducting Materials
-Slide 5: Brief History of Superconductivity
-II. Basics of Superconductivity (Theory)
-Slides 6-10
-Cooper Pairs
-Meissner Effect
-BCS Theory Overview
-Zero Electrical Resistance
-Critical Temperature
-III. Applications: Magnetics and Wires
-Slides 11-15
-MRI Machines
-Maglev Trains
-Energy Grids
-Superconducting Coils
-Limitations in Applications
-IV. Thermodynamics and Phases
-Slides 16-20
-Type I and Type II Superconductors
-Critical Fields
-Diamagnetic Response
-Phase Diagrams
-Energy Gaps
-V. Flux Pinning and Levitation
-Slides 21-25
-Vortex Lattices
-Flux Tubes
-Levitation Applications
-Pinning Centers
-YBaCuO Examples
-VI. Niobium-Titanium (NbTi) Alloys
-Slides 26-30
-Composition and Structure
-Magnetic Properties
-Mechanical Properties
-Applications
-Processing Challenges
-VII. Quantum Effects
-Slides 31-35
-Quantum Tunneling
-Josephson Junctions
-Macroscopic Quantum Phenomena
-SQUIDs
-Quantum Computing Applications
-VIII. Microstructure and Grain Boundaries
-Slides 36-40
-Grain Boundary Impact on Properties
-Microstructure Analysis
-Sintering Methods
-Weak Links
-Influence on Flux Pinning
-IX. Mechanical Properties
-Slides 41-45
-Tensile Strength
-Brittleness
-Fatigue
-Thermal Expansion
-Composite Superconductors
-X. High-Temperature Superconductors (HTSC)
-Slides 46-50
-YBaCuO and Other Cuprates
-Iron-based Superconductors
-Challenges and Advantages
-Applications
-Current Research Trends
-XI. Recent Trends and Future Directions
-Slides 51-55
-MgB2 Developments
-Room-Temperature Superconductors
-Topological Superconductors
-Commercialization Challenges
-Research Funding and Outlook
-XII. Conclusion and Summary
-Slide 56: Summary of Key Points
-Slide 57: Future Outlook
-Slide 58: Acknowledgments
-Slide 59: Questions
-Slide 60: References
+## Outline
+
+- Slide 4: Importance of Superconducting Materials
+- Slide 5: Brief History of Superconductivity
+- Applications: Magnetics and Wires
+  - MRI Machines
+  - Maglev Trains
+  - Energy Grids
+  - Superconducting Coils
+  - Limitations in Applications
+- Basics of Superconductivity (Theory)
+  - Cooper Pairs
+  - Meissner Effect
+  - BCS Theory Overview
+  - Zero Electrical Resistance
+  - Critical Temperature
+- Thermodynamics and Phases
+  - Type I and Type II Superconductors
+  - Critical Fields
+  - Diamagnetic Response
+  - Phase Diagrams
+  - Energy Gaps
+- Flux Pinning and Levitation
+  - Vortex Lattices
+  - Flux Tubes
+  - Levitation Applications
+  - Pinning Centers
+  - YBaCuO Examples
+- Niobium-Titanium (NbTi) Alloys
+  - Composition and Structure
+  - Magnetic Properties
+  - Mechanical Properties
+  - Applications
+  - Processing Challenges
+- Quantum Effects
+  - Quantum Tunneling
+  - Josephson Junctions
+  - Macroscopic Quantum Phenomena
+  - SQUIDs  
+  - Quantum Computing Applications
+- Microstructure and Grain Boundaries
+  - Grain Boundary Impact on Properties
+  - Microstructure Analysis
+  - Sintering Methods
+  - Weak Links
+  - Influence on Flux Pinning
+- Mechanical Properties
+  - Tensile Strength
+  - Brittleness
+  - Fatigue
+  - Thermal Expansion
+  - Composite Superconductors
+- High-Temperature Superconductors (HTSC)
+  - YBaCuO and Other Cuprates
+  - Iron-based Superconductors
+  - Challenges and Advantages
+  - Applications
+  - Current Research Trends
+- Recent Trends and Future Directions
+  - MgB2 Developments
+  - Supposidly Room-Temperature Superconductors
+  - Topological Superconductors
+  - Commercialization Challenges
+  - Research Funding and Outlook
+- Conclusion and Summary
+  - Summary of Key Points
