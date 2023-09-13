@@ -1,0 +1,168 @@
+---
+title: "Crash Course in Materials Science of Superconductors"
+#institute: 
+bibliography: _references/references.bib
+csl: _references/nature.csl
+
+format:
+    revealjs:
+        width: 75%
+        height: 90%
+        #template-partials: 
+        #  - title-slide.html
+        cache: true
+        theme: [custom.scss]
+        menu: true
+        numbers: true
+        slide-number: true
+        chalkboard: false
+        toc: true
+        toc-depth: 2
+        toc-title: "Outline"
+        transition: none
+        transition-speed: fast
+        scrollable: false
+        code-copy: true
+        navigation-mode: linear
+        controls: true
+        controls-layout: edges
+        progress: true
+        footer: "Stefan Bringuier"
+        logo: https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg
+        output: true
+        reference-location: document
+        citations-hover: true
+        footnote-hover: true
+        preview-links: false
+        self-contained: false
+        fig-align: center
+        fig-responsive: true
+        auto-animate-duration: 0.01
+        embed-resources: true
+    pdf:
+        pdf-engine: lualatex
+        template-partials:
+          - title.tex
+        include-in-header:
+          text: |
+            \usepackage{authblk}
+            \usepackage[version=4]{mhchem}
+        latex-output-dir: output
+        output-file: presentation_reportformat.pdf
+        documentclass: scrartcl
+        fig-pos: "H"
+        output: true
+        toc: true
+        lof: true
+        colorlinks: true
+        code-line-numbers: true
+
+from: markdown+emoji
+jupyter: julia-1.9
+---
+
+{{< include _juliaenv.qmd >}}
+
+## Some Comments
+
+::: {.callout-important}
+These are working notes, so there are bound to be errors. Please keep this in mind while going through the notes. Feel free to email [me](mailto:stefanbringuier@gmail.com) if you want to provide corrections.
+:::
+
+::: {.callout-note}
+Much of the notes derived from various sources, please checkout the [references](#references).
+:::
+
+:::{.callout-tip}
+ If you prefer to view this in a report format, you can download a formatted PDF of this presentation [here](presentation_reportformat.pdf).
+:::
+
+
+
+{{< include slides/why.qmd >}}
+{{< include slides/basic_theory.qmd >}}
+{{< include slides/_backmatter.qmd >}}
+
+
+I. Introduction
+Slide 1: Title Slide
+Slide 2: Objectives of the Presentation
+Slide 3: Overview of Topics Covered
+Slide 4: Importance of Superconducting Materials
+Slide 5: Brief History of Superconductivity
+II. Basics of Superconductivity (Theory)
+Slides 6-10
+Cooper Pairs
+Meissner Effect
+BCS Theory Overview
+Zero Electrical Resistance
+Critical Temperature
+III. Applications: Magnetics and Wires
+Slides 11-15
+MRI Machines
+Maglev Trains
+Energy Grids
+Superconducting Coils
+Limitations in Applications
+IV. Thermodynamics and Phases
+Slides 16-20
+Type I and Type II Superconductors
+Critical Fields
+Diamagnetic Response
+Phase Diagrams
+Energy Gaps
+V. Flux Pinning and Levitation
+Slides 21-25
+Vortex Lattices
+Flux Tubes
+Levitation Applications
+Pinning Centers
+YBaCuO Examples
+VI. Niobium-Titanium (NbTi) Alloys
+Slides 26-30
+Composition and Structure
+Magnetic Properties
+Mechanical Properties
+Applications
+Processing Challenges
+VII. Quantum Effects
+Slides 31-35
+Quantum Tunneling
+Josephson Junctions
+Macroscopic Quantum Phenomena
+SQUIDs
+Quantum Computing Applications
+VIII. Microstructure and Grain Boundaries
+Slides 36-40
+Grain Boundary Impact on Properties
+Microstructure Analysis
+Sintering Methods
+Weak Links
+Influence on Flux Pinning
+IX. Mechanical Properties
+Slides 41-45
+Tensile Strength
+Brittleness
+Fatigue
+Thermal Expansion
+Composite Superconductors
+X. High-Temperature Superconductors (HTSC)
+Slides 46-50
+YBaCuO and Other Cuprates
+Iron-based Superconductors
+Challenges and Advantages
+Applications
+Current Research Trends
+XI. Recent Trends and Future Directions
+Slides 51-55
+MgB2 Developments
+Room-Temperature Superconductors
+Topological Superconductors
+Commercialization Challenges
+Research Funding and Outlook
+XII. Conclusion and Summary
+Slide 56: Summary of Key Points
+Slide 57: Future Outlook
+Slide 58: Acknowledgments
+Slide 59: Questions
+Slide 60: References

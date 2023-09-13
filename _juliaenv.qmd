@@ -1,0 +1,13 @@
+```{julia}
+#| echo: false
+#| output: false
+using Plots;
+gr(linewidth=3,
+   markerstrokecolor=nothing,
+   markersize=6,
+   tickfontsize=24,
+   minorticks=true,
+   guidefontsize=24,
+   legend_font=16
+   )
+```

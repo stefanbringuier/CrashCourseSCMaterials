@@ -1,0 +1,15 @@
+\title{$title$}
+
+$for(by-author)$
+  \author{$by-author.name.literal$}
+    $for(by-author.affiliations)$
+      \affil{%
+          $by-author.affiliations.name$ \\
+          ORCID: \href{https://orcid.org/$by-author.orcid$}{$by-author.orcid$}\\
+          \href{mailto:$by-author.email$}{$by-author.email$}\\
+          \href{$by-author.url$}{$by-author.url$}
+      }
+    $endfor$
+$endfor$
+
+\date{$date$}

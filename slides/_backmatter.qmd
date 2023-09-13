@@ -1,0 +1,27 @@
+## Backmatter {.appendix}
+<div style="text-align: center;">
+
+[![](figures/stefanbringuier.png){width=125px}](https://www.stefanbringuier.info)
+
+[stefanbringuier@gmail.com](mailto:stefanbringuier@gmail.com)
+
+[{{< fa brands github size=1.5x >}}](https://github.com/stefanbringuier)   [{{< fa brands linkedin size=1.5x >}}](https://linkedin.com/in/stefanbringuier)   [{{< ai google-scholar size=1.5x >}}](https://scholar.google.com/citations?user=MhJTimgAAAAJ&hl=en) [{{< ai orcid size=1.5x >}}](https://orcid.org/0000-0001-6753-1437)
+</div>
+
+:::{.callout-note}
+This presentation can be viewed online at <https://stefanbringuier.github.io/BayesianOptNotes>.
+
+To export `revealjs` presentations to pdf, press 'e' then 'ctrl-p' ➡ 'save as pdf'
+:::
+
+:::{.callout-tip}
+ A report formated PDF of this presentation can be downloaded [here](presentation_reportformat.pdf).
+:::
+
+## References {.appendix}
+::: {#refs}
+---
+nocite: |
+    @*
+---
+:::

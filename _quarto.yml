@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: output
+  
+author:
+  - name: Stefan Bringuier
+    affiliations:
+      - name: Materials Scientist
+        department: Independent Researcher
+        address: 
+        city: 
+        country: USA
+        postal-code: 00000
+    orcid: 0000-0001-6753-1437
+    email: stefanbringuier@gmail.com
+    url: https://stefanbringuier.info
+    corrresponding: true
+
+abstract: >
+ Crash Course in Materials Science of Superconductors
+
+keywords:
+  - Superconductors
+  - Materials Science
+
+bibliography: _references/references.bib
+
+copyright: 
+  holder: Stefan Bringuier
+
+citation: true
+
+license: "CC BY-SA"
+
+date: today
+date-format: medium
