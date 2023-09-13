@@ -84,7 +84,7 @@ Much of the notes derived from various sources, please checkout the [references]
 {{< include slides/_backmatter.qmd >}}
 
 
-## Outline
+## Outline {.scrollable}
 
 - Slide 4: Importance of Superconducting Materials
 - Slide 5: Brief History of Superconductivity

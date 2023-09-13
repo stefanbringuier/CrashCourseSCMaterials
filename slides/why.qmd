@@ -6,16 +6,22 @@
 - Why did anyone care to begin with?
     - They didn't. Initially Heike Kamerlingh Onnes @OnnesReview2010 and others were just interested in cryogenics.
     - Once they achieved liquid Helium, they asked why note study conductive metals at these temperatures.
-    - In 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of SC^[SC: Superconductivity] was born.
+    - In 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.
 - Physcist focused on measurement of other elemental solides and a theory.
 - Observation of SC in Nb is really what begun technological use.
 :::
 
-::: {.column width="40%"}
-![Original plot of Hg transition temperature to SC phase @OnnesReview2010](../figures/HgSC_HKO.jpeg){#fig-HgSC_HKO height=50%}
+::: {.column width="40%" height="50%"}
+![Original plot of Hg transition temperature to SC phase @OnnesReview2010](figures/HgSC_HKO.jpeg){#fig-HgSC_HKO}
 :::
 
 ::::
+
+::: aside
+SC: Superconductivity
+Nb: Niobium
+:::
+
 
 ## Technological Interest
 
