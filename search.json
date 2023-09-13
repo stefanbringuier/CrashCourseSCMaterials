@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "slides/why.html",
+    "href": "slides/why.html",
+    "title": "",
+    "section": "",
+    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010)\n\n\n\n\n\n\nSC: Superconductivity Nb: Niobium"
+  },
+  {
+    "objectID": "slides/why.html#whats-all-the-fuss",
+    "href": "slides/why.html#whats-all-the-fuss",
+    "title": "",
+    "section": "",
+    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010)\n\n\n\n\n\n\nSC: Superconductivity Nb: Niobium"
+  },
+  {
+    "objectID": "presentation.html#some-comments",
+    "href": "presentation.html#some-comments",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Some Comments",
+    "text": "Some Comments\n\n\n\n\n\n\nImportant\n\n\nThese are working notes, so there are bound to be errors. Please keep this in mind while going through the notes. Feel free to email me if you want to provide corrections.\n\n\n\n\n\n\n\n\n\nNote\n\n\nMuch of the notes derived from various sources, please checkout the references.\n\n\n\n\n\n\n\n\n\nTip\n\n\nIf you prefer to view this in a report format, you can download a formatted PDF of this presentation here."
+  },
+  {
+    "objectID": "presentation.html#whats-all-the-fuss",
+    "href": "presentation.html#whats-all-the-fuss",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Whats all the fuss",
+    "text": "Whats all the fuss\n\n\n\nWhy did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes1 and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase1\n\n\n\n\n\n\nSC: Superconductivity Nb: Niobium"
+  },
+  {
+    "objectID": "presentation.html#technological-interest",
+    "href": "presentation.html#technological-interest",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Technological Interest",
+    "text": "Technological Interest"
+  },
+  {
+    "objectID": "presentation.html#backmatter",
+    "href": "presentation.html#backmatter",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Backmatter",
+    "text": "Backmatter\n\n\n\n\n\n\nstefanbringuier@gmail.com\n   \n\n\n\n\n\n\n\nNote\n\n\nThis presentation can be viewed online at https://stefanbringuier.github.io/BayesianOptNotes.\nTo export revealjs presentations to pdf, press ‘e’ then ‘ctrl-p’ ➡ ‘save as pdf’\n\n\n\n\n\n\n\n\n\nTip\n\n\nA report formated PDF of this presentation can be downloaded here."
+  },
+  {
+    "objectID": "presentation.html#references",
+    "href": "presentation.html#references",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "References",
+    "text": "References\n\n\n1. Delft, D. van & Kes, P. The discovery of superconductivity. Physics Today 63, 38–43 (2010).\n\n\n2. Speller, S. A materials science guide to superconductors and how to make them super. (Oxford University Press, 2022)."
+  },
+  {
+    "objectID": "presentation.html#outline",
+    "href": "presentation.html#outline",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Outline",
+    "text": "Outline\n\nSlide 4: Importance of Superconducting Materials\nSlide 5: Brief History of Superconductivity\nApplications: Magnetics and Wires\n\nMRI Machines\nMaglev Trains\nEnergy Grids\nSuperconducting Coils\nLimitations in Applications\n\nBasics of Superconductivity (Theory)\n\nCooper Pairs\nMeissner Effect\nBCS Theory Overview\nZero Electrical Resistance\nCritical Temperature\n\nThermodynamics and Phases\n\nType I and Type II Superconductors\nCritical Fields\nDiamagnetic Response\nPhase Diagrams\nEnergy Gaps\n\nFlux Pinning and Levitation\n\nVortex Lattices\nFlux Tubes\nLevitation Applications\nPinning Centers\nYBaCuO Examples\n\nNiobium-Titanium (NbTi) Alloys\n\nComposition and Structure\nMagnetic Properties\nMechanical Properties\nApplications\nProcessing Challenges\n\nQuantum Effects\n\nQuantum Tunneling\nJosephson Junctions\nMacroscopic Quantum Phenomena\nSQUIDs\n\nQuantum Computing Applications\n\nMicrostructure and Grain Boundaries\n\nGrain Boundary Impact on Properties\nMicrostructure Analysis\nSintering Methods\nWeak Links\nInfluence on Flux Pinning\n\nMechanical Properties\n\nTensile Strength\nBrittleness\nFatigue\nThermal Expansion\nComposite Superconductors\n\nHigh-Temperature Superconductors (HTSC)\n\nYBaCuO and Other Cuprates\nIron-based Superconductors\nChallenges and Advantages\nApplications\nCurrent Research Trends\n\nRecent Trends and Future Directions\n\nMgB2 Developments\nSupposidly Room-Temperature Superconductors\nTopological Superconductors\nCommercialization Challenges\nResearch Funding and Outlook\n\nConclusion and Summary\n\nSummary of Key Points\n\n\n\n\n\nStefan Bringuier"
+  },
+  {
+    "objectID": "slides/basic_theory.html",
+    "href": "slides/basic_theory.html",
+    "title": "",
+    "section": "",
+    "text": "Reusehttps://creativecommons.org/licenses/by-sa/4.0/CitationBibTeX citation:@online{bringuier2023,\n  author = {Bringuier, Stefan},\n  date = {2023-09-13},\n  url = {https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html},\n  langid = {en},\n  abstract = {Crash Course in Materials Science of Superconductors}\n}\nFor attribution, please cite this work as:\nBringuier, Stefan. 2023. September 13, 2023. https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html."
+  }
+]
