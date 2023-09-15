@@ -11,18 +11,53 @@
 - Observation of SC in Nb is really what begun technological use.
 :::
 
-::: {.column width="40%" height="50%"}
-![Original plot of Hg transition temperature to SC phase @OnnesReview2010](figures/HgSC_HKO.jpeg){#fig-HgSC_HKO}
+::: {.column width="40%"}
+
+![Original plot of Hg transition temperature to SC phase @OnnesReview2010.](figures/HgSC_HKO.jpeg){#fig-HgSC_HKO height=400}
+
 :::
 
 ::::
 
 ::: aside
-SC: Superconductivity
-Nb: Niobium
+SC: Superconductivity. Nb: Niobium
 :::
 
 
 ## Technological Interest
+
+::: {.panel-tabset}
+
+### Magnetic Resonance Imaging
+
+:::: {.columns}
+
+::: {.column}
+- Superconducting coils allow for high magnetic fields need to image nuclear resoance in human body.
+:::
+
+::: {.column}
+![Cut-throught showing MRI machine and SC coils @Wang2012.](https://d3i71xaburhd42.cloudfront.net/3746977dcb23069bdfed6abeb2b2e4bc4c596098/4-Figure7-1.png){#fig-MRI}
+:::
+
+::::
+
+### MagLev Trains
+:::: {.columns}
+
+::: {.column}
+- Superconducting materials enable high-speed rail.
+:::
+
+::: {.column}
+![Superconductors are onboard train which interact with propolsion rail coils @Maglev_2013.](figures/maglev.jpg){#fig-MagLev}
+:::
+
+::::
+
+### Energy Storage/Production
+
+:::
+
 
 

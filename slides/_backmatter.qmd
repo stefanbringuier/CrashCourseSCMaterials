@@ -9,7 +9,7 @@
 </div>
 
 :::{.callout-note}
-This presentation can be viewed online at <https://stefanbringuier.github.io/BayesianOptNotes>.
+This presentation can be viewed online at <https://stefanbringuier.github.io/CrashCourseSCMaterials>.
 
 To export `revealjs` presentations to pdf, press 'e' then 'ctrl-p' ➡ 'save as pdf'
 :::

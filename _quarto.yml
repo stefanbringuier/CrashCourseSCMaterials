@@ -17,7 +17,7 @@ author:
     corrresponding: true
 
 abstract: >
- Crash Course in Materials Science of Superconductors
+ This document provides basic review of superconducting materials from a materials science \& engineering perspective. This entails a very basic review of conductivity, magnetism, and superconductivity theory. The remainder is focused on aspects of specific material systems, such as compositional phases that exhibit superconducting phase, mechanical properties, and processing. High-level review of applications is also provided. The intent of this document is to act as a quick digest for someone who plans to dive deeper into the provided references.
 
 keywords:
   - Superconductors

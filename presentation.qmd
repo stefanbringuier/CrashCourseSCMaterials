@@ -6,8 +6,8 @@ csl: _references/nature.csl
 
 format:
     revealjs:
-        width: 75%
-        height: 90%
+        #width: 75%
+        #height: 90%
         #template-partials: 
         #  - title-slide.html
         cache: true
@@ -84,7 +84,7 @@ Much of the notes derived from various sources, please checkout the [references]
 {{< include slides/_backmatter.qmd >}}
 
 
-## Outline {.scrollable}
+## Draft Outline {.scrollable}
 
 - Slide 4: Importance of Superconducting Materials
 - Slide 5: Brief History of Superconductivity
