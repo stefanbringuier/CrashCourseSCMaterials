@@ -33,7 +33,11 @@ SC: Superconductivity. Nb: Niobium
 :::: {.columns}
 
 ::: {.column}
-- Superconducting coils allow for high magnetic fields need to image nuclear resoance in human body.
+- Superconducting coils allow for high magnetic fields.
+    - **Stronger Magnets**: Enhanced image quality and resolution.
+    - **Energy Efficiency**: Lower operational costs due to zero resistance.
+    - **Cooling Required**: Increased cost.
+
 :::
 
 ::: {.column}
@@ -47,6 +51,9 @@ SC: Superconductivity. Nb: Niobium
 
 ::: {.column}
 - Superconducting materials enable high-speed rail.
+    - **Efficient Levitation**: Frictionless, high-speed travel.
+    - **High Current Capacity**: Ideal for powerful electromagnets in propulsion.
+    - **Downside**: Cryogenic systems maintain superconducting state.
 :::
 
 ::: {.column}
@@ -56,8 +63,41 @@ SC: Superconductivity. Nb: Niobium
 ::::
 
 ### Energy Storage/Production
+:::: {.columns}
+
+::: {.column}
+- **High Field Strength**: Enables stronger magnetic confinement in fusion.
+- **Zero Resistance**: Increases efficiency in energy storage systems.
+- **Cooling Trade-off**: Cryogenic needs offset by gains in efficiency.
+:::
+
+::: {.column}
+![High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device @Molodyk2023.](figures/MagFusion.gif){#fig-MFE}
+:::
+
+::::
+
+:::
+
+## Most common complaints
+
+- **Cooling Costs**: Cryogenic systems are energy-intensive and expensive.
+- **Material Fragility**: Mechanical stresses can degrade superconducting properties.
+- **High Costs**: Fabrication and maintenance of superconducting materials are costly.
+- **Limited Current Capacity**: Some materials can't sustain high current densities.
+- **Material Complexity**: Difficulties in integration with existing technologies.
+
+Many advances have been achieved in last 30 years or so to address these concerns.
+
+::: {.callout-note}
+At this point I won't discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.
+
+Many others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.
 
 :::
 
 
+::: aside
+RT: room-temperature
+:::
 
