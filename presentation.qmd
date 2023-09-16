@@ -40,7 +40,7 @@ format:
         auto-animate-duration: 0.01
         embed-resources: true
     pdf:
-        pdf-engine: xelatex
+        pdf-engine: lualatex
         template-partials:
           - title.tex
         include-in-header:

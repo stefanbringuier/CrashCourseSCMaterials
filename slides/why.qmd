@@ -72,7 +72,7 @@ SC: Superconductivity. Nb: Niobium
 :::
 
 ::: {.column}
-![High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device @Molodyk2023.](figures/MagFusion.gif){#fig-MFE}
+![High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device @Molodyk2023.](figures/MagFusion.png){#fig-MFE}
 :::
 
 ::::

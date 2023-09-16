@@ -1,6 +1,6 @@
 ## Basic Theory
 
-- As we saw in @fig-HgSC_HKO, there are materials where electrical conductivity drops to "exactly"^[Here I use exactly in that it is zero within measurement precision. If your device can only measure to $10^-10$ then you show a resistivity value on that order.] zero.
+- As we saw in @fig-HgSC_HKO, there are materials where electrical conductivity drops to "exactly"^[Here I use exactly in that it is zero within measurement precision. If your device can only measure to $10^{-10}$ then you show a resistivity value on that order.] zero.
 - How is this achieved?
     - Well at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank @Bardeen1957.
 
