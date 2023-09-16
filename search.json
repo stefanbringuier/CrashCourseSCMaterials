@@ -18,7 +18,14 @@
     "href": "slides/why.html#technological-interest",
     "title": "",
     "section": "Technological Interest",
-    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields need to image nuclear resoance in human body.\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils Wang et al. (2012).\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils Nishijima et al. (2013)."
+    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields.\n\nStronger Magnets: Enhanced image quality and resolution.\nEnergy Efficiency: Lower operational costs due to zero resistance.\nCooling Required: Increased cost.\n\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils Wang et al. (2012).\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\nEfficient Levitation: Frictionless, high-speed travel.\nHigh Current Capacity: Ideal for powerful electromagnets in propulsion.\nDownside: Cryogenic systems maintain superconducting state.\n\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils Nishijima et al. (2013).\n\n\n\n\n\n\n\n\n\nHigh Field Strength: Enables stronger magnetic confinement in fusion.\nZero Resistance: Increases efficiency in energy storage systems.\nCooling Trade-off: Cryogenic needs offset by gains in efficiency.\n\n\n\n\n\nFigure 4: High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device Molodyk and Larbalestier (2023)."
+  },
+  {
+    "objectID": "slides/why.html#most-common-complaints",
+    "href": "slides/why.html#most-common-complaints",
+    "title": "",
+    "section": "Most common complaints",
+    "text": "Most common complaints\n\nCooling Costs: Cryogenic systems are energy-intensive and expensive.\nMaterial Fragility: Mechanical stresses can degrade superconducting properties.\nHigh Costs: Fabrication and maintenance of superconducting materials are costly.\nLimited Current Capacity: Some materials can’t sustain high current densities.\nMaterial Complexity: Difficulties in integration with existing technologies.\n\nMany advances have been achieved in last 30 years or so to address these concerns.\n\n\n\n\n\n\nNote\n\n\n\nAt this point I won’t discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.\nMany others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.\n\n\n\n\n\n\n\nRT: room-temperature"
   },
   {
     "objectID": "presentation.html#some-comments",
@@ -39,7 +46,21 @@
     "href": "presentation.html#technological-interest",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Technological Interest",
-    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields need to image nuclear resoance in human body.\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils2.\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils3."
+    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields.\n\nStronger Magnets: Enhanced image quality and resolution.\nEnergy Efficiency: Lower operational costs due to zero resistance.\nCooling Required: Increased cost.\n\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils2.\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\nEfficient Levitation: Frictionless, high-speed travel.\nHigh Current Capacity: Ideal for powerful electromagnets in propulsion.\nDownside: Cryogenic systems maintain superconducting state.\n\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils3.\n\n\n\n\n\n\n\n\n\nHigh Field Strength: Enables stronger magnetic confinement in fusion.\nZero Resistance: Increases efficiency in energy storage systems.\nCooling Trade-off: Cryogenic needs offset by gains in efficiency.\n\n\n\n\n\nFigure 4: High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device4."
+  },
+  {
+    "objectID": "presentation.html#most-common-complaints",
+    "href": "presentation.html#most-common-complaints",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Most common complaints",
+    "text": "Most common complaints\n\nCooling Costs: Cryogenic systems are energy-intensive and expensive.\nMaterial Fragility: Mechanical stresses can degrade superconducting properties.\nHigh Costs: Fabrication and maintenance of superconducting materials are costly.\nLimited Current Capacity: Some materials can’t sustain high current densities.\nMaterial Complexity: Difficulties in integration with existing technologies.\n\nMany advances have been achieved in last 30 years or so to address these concerns.\n\n\n\n\n\n\nNote\n\n\nAt this point I won’t discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.\nMany others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.\n\n\n\n\n\nRT: room-temperature"
+  },
+  {
+    "objectID": "presentation.html#basic-theory",
+    "href": "presentation.html#basic-theory",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory",
+    "text": "Basic Theory\n\nAs we saw in Figure 1, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank5.\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
   },
   {
     "objectID": "presentation.html#backmatter",
@@ -53,7 +74,7 @@
     "href": "presentation.html#references",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "References",
-    "text": "References\n\n\n1. Delft, D. van & Kes, P. The discovery of superconductivity. Physics Today 63, 38–43 (2010).\n\n\n2. Wang, Q. L., Dai, Y. M., Zhao, B., Song, S. S., Wang, C. Q., Li, L., Cheng, J., Chen, S., Wang, H., Ni, Z., Li, Y., Cui, C., Hu, X., Lei, Y., Chan, K., Yan, L., Wen, C., Hui, G., Yang, W. C., Liu, F., Zhuo, Y., Zhou, X., Yan, Z., Chen, J. & Xu, T. A superconducting magnet system for whole-body metabolism imaging. IEEE Transactions on Applied Superconductivity 22, 4400905–4400905 (2012).\n\n\n3. Nishijima, S., Eckroad, S., Marian, A., Choi, K., Kim, W. S., Terai, M., Deng, Z., Zheng, J., Wang, J., Umemoto, K., Du, J., Febvre, P., Keenan, S., Mukhanov, O., Cooley, L. D., Foley, C. P., Hassenzahl, W. V. & Izumi, M. Superconductivity and the environment: A roadmap. Superconductor Science and Technology 26, 113001 (2013).\n\n\n4. Speller, S. A materials science guide to superconductors and how to make them super. (Oxford University Press, 2022)."
+    "text": "References\n\n\n1. Delft, D. van & Kes, P. The discovery of superconductivity. Physics Today 63, 38–43 (2010).\n\n\n2. Wang, Q. L., Dai, Y. M., Zhao, B., Song, S. S., Wang, C. Q., Li, L., Cheng, J., Chen, S., Wang, H., Ni, Z., Li, Y., Cui, C., Hu, X., Lei, Y., Chan, K., Yan, L., Wen, C., Hui, G., Yang, W. C., Liu, F., Zhuo, Y., Zhou, X., Yan, Z., Chen, J. & Xu, T. A superconducting magnet system for whole-body metabolism imaging. IEEE Transactions on Applied Superconductivity 22, 4400905–4400905 (2012).\n\n\n3. Nishijima, S., Eckroad, S., Marian, A., Choi, K., Kim, W. S., Terai, M., Deng, Z., Zheng, J., Wang, J., Umemoto, K., Du, J., Febvre, P., Keenan, S., Mukhanov, O., Cooley, L. D., Foley, C. P., Hassenzahl, W. V. & Izumi, M. Superconductivity and the environment: A roadmap. Superconductor Science and Technology 26, 113001 (2013).\n\n\n4. Molodyk, A. & Larbalestier, D. C. The prospects of high-temperature superconductors. Science 380, 1220–1222 (2023).\n\n\n5. Bardeen, J., Cooper, L. N. & Schrieffer, J. R. Theory of superconductivity. Phys. Rev. 108, 1175–1204 (1957).\n\n\n6. Speller, S. A materials science guide to superconductors and how to make them super. (Oxford University Press, 2022)."
   },
   {
     "objectID": "presentation.html#draft-outline",
@@ -63,10 +84,31 @@
     "text": "Draft Outline\n\nSlide 4: Importance of Superconducting Materials\nSlide 5: Brief History of Superconductivity\nApplications: Magnetics and Wires\n\nMRI Machines\nMaglev Trains\nEnergy Grids\nSuperconducting Coils\nLimitations in Applications\n\nBasics of Superconductivity (Theory)\n\nCooper Pairs\nMeissner Effect\nBCS Theory Overview\nZero Electrical Resistance\nCritical Temperature\n\nThermodynamics and Phases\n\nType I and Type II Superconductors\nCritical Fields\nDiamagnetic Response\nPhase Diagrams\nEnergy Gaps\n\nFlux Pinning and Levitation\n\nVortex Lattices\nFlux Tubes\nLevitation Applications\nPinning Centers\nYBaCuO Examples\n\nNiobium-Titanium (NbTi) Alloys\n\nComposition and Structure\nMagnetic Properties\nMechanical Properties\nApplications\nProcessing Challenges\n\nQuantum Effects\n\nQuantum Tunneling\nJosephson Junctions\nMacroscopic Quantum Phenomena\nSQUIDs\n\nQuantum Computing Applications\n\nMicrostructure and Grain Boundaries\n\nGrain Boundary Impact on Properties\nMicrostructure Analysis\nSintering Methods\nWeak Links\nInfluence on Flux Pinning\n\nMechanical Properties\n\nTensile Strength\nBrittleness\nFatigue\nThermal Expansion\nComposite Superconductors\n\nHigh-Temperature Superconductors (HTSC)\n\nYBaCuO and Other Cuprates\nIron-based Superconductors\nChallenges and Advantages\nApplications\nCurrent Research Trends\n\nRecent Trends and Future Directions\n\nMgB2 Developments\nSupposidly Room-Temperature Superconductors\nTopological Superconductors\nCommercialization Challenges\nResearch Funding and Outlook\n\nConclusion and Summary\n\nSummary of Key Points\n\n\n\n\n\nStefan Bringuier"
   },
   {
+    "objectID": "presentation.html#footnotes",
+    "href": "presentation.html#footnotes",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order."
+  },
+  {
     "objectID": "slides/basic_theory.html",
     "href": "slides/basic_theory.html",
     "title": "",
     "section": "",
-    "text": "Reusehttps://creativecommons.org/licenses/by-sa/4.0/CitationBibTeX citation:@online{bringuier2023,\n  author = {Bringuier, Stefan},\n  date = {2023-09-14},\n  url = {https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html},\n  langid = {en},\n  abstract = {This document provides basic review of superconducting\n    materials from a materials science \\textbackslash\\& engineering\n    perspective. This entails a very basic review of conductivity,\n    magnetism, and superconductivity theory. The remainder is focused on\n    aspects of specific material systems, such as compositional phases\n    that exhibit superconducting phase, mechanical properties, and\n    processing. High-level review of applications is also provided. The\n    intent of this document is to act as a quick digest for someone who\n    plans to dive deeper into the provided references.}\n}\nFor attribution, please cite this work as:\nBringuier, Stefan. 2023. September 14, 2023. https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html."
+    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory",
+    "href": "slides/basic_theory.html#basic-theory",
+    "title": "",
+    "section": "",
+    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+  },
+  {
+    "objectID": "slides/basic_theory.html#footnotes",
+    "href": "slides/basic_theory.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order.↩︎"
   }
 ]
