@@ -100,8 +100,8 @@ div.csl-indent {
 
 
 
-<section id="basic-theory" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="basic-theory">Basic Theory</h2>
+<section id="basic-theory-background" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="basic-theory-background">Basic Theory: Background</h2>
 <ul>
 <li>As we saw in <strong>?@fig-HgSC_HKO</strong>, there are materials where electrical conductivity drops to “exactly”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> zero.</li>
 <li>How is this achieved?
@@ -117,17 +117,117 @@ div.csl-indent {
 <ul>
 <li>What mechanism did they describe?
 <ul>
-<li>Cooper Pairs!</li>
+<li>Describe microscopic superdconducting using quantum theory.</li>
+<li><strong>Solution</strong>: Electron Cooper pairs via condesnsate state.</li>
 <li>Why Pairs? Blame the phonons.</li>
 </ul></li>
 </ul>
 
-
-
-
 <div class="no-row-height column-margin column-container"><div class="">
 <p>BCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity.</p>
 </div></div></section>
+<section id="basic-theory-cooper-pairs-low-temperature-14" class="level2">
+<h2 class="anchored" data-anchor-id="basic-theory-cooper-pairs-low-temperature-14">Basic Theory: Cooper Pairs @ Low Temperature (1/4)</h2>
+<p><strong>Mathematical Foundation</strong></p>
+<p>Hamiltonian: <span class="math inline">\(H = H_0 + H_{\text{int}}\)</span></p>
+<ul>
+<li><span class="math inline">\(H_0\)</span>: Kinetic energy term<br>
+</li>
+<li><span class="math inline">\(H_{\text{int}}\)</span>: Interaction term</li>
+</ul>
+<p>BCS Wave Function: <span id="eq-bcs-psi"><span class="math display">\[ \left| \Psi_{\text{BCS}} \right\rangle = \prod_k (u_k + v_k c_{k \uparrow}^\dagger c_{-k \downarrow}^\dagger ) \left| 0 \right\rangle  \tag{1}\]</span></span></p>
+<ul>
+<li><span class="math inline">\(u_k\)</span>: Probability amplitude for unoccupied state<br>
+</li>
+<li><span class="math inline">\(v_k\)</span>: Probability amplitude for occupied state<br>
+</li>
+<li><span class="math inline">\(c_{k \uparrow}^\dagger\)</span>, <span class="math inline">\(c_{-k \downarrow}^\dagger\)</span>: Electron creation operators</li>
+</ul>
+</section>
+<section id="basic-theory-cooper-pairs-low-temperature-24" class="level2">
+<h2 class="anchored" data-anchor-id="basic-theory-cooper-pairs-low-temperature-24">Basic Theory: Cooper Pairs @ Low Temperature (2/4)</h2>
+<div class="columns">
+<div class="column">
+<p><strong>Role of Phonons</strong></p>
+<p>Electrons interact indirectly via phonons, leading to a net attractive force among pairs of <span class="math inline">\(\text{e}^{-}\)</span>. <span class="math display">\[V(q, \omega) = \frac{{2 \omega(q)}}{q^2} \chi(q, \omega)\]</span></p>
+<ul>
+<li><span class="math inline">\(V(q, \omega)\)</span>: Electron-phonon interaction<br>
+</li>
+<li><span class="math inline">\(\omega(q)\)</span>: Phonon frequency<br>
+</li>
+<li><span class="math inline">\(\chi(q, \omega)\)</span>: Polarizability</li>
+</ul>
+<p><strong>Cooper Pairs</strong></p>
+<ul>
+<li>Formed by two electrons with opposite spins and momenta.</li>
+<li>Exhibit Bose-Einstein-like condensation at low temperatures.</li>
+</ul>
+</div><div class="column">
+<p><strong>Add figure</strong></p>
+</div>
+</div>
+</section>
+<section id="basic-theory-cooper-pairs-low-temperature-34" class="level2">
+<h2 class="anchored" data-anchor-id="basic-theory-cooper-pairs-low-temperature-34">Basic Theory: Cooper Pairs @ Low Temperature (3/4)</h2>
+<div class="columns">
+<div class="column">
+<p><strong>Energy Gap</strong></p>
+<p><span class="math inline">\(\Delta = 2 \left| V \right| \sqrt{N(0) V}\)</span></p>
+<ul>
+<li><span class="math inline">\(\Delta\)</span>: Energy gap<br>
+</li>
+<li><span class="math inline">\(V\)</span>: Pairing potential<br>
+</li>
+<li><span class="math inline">\(N(0)\)</span>: Density of states at Fermi level</li>
+</ul>
+</div><div class="column">
+<p><strong>Add figure</strong></p>
+</div>
+</div>
+</section>
+<section id="basic-theory-superconducting-state-property-predictions" class="level2">
+<h2 class="anchored" data-anchor-id="basic-theory-superconducting-state-property-predictions">Basic Theory: Superconducting State Property Predictions</h2>
+<div class="columns">
+<div class="column">
+<section id="critical-temperature-t_c" class="level4">
+<h4 class="anchored" data-anchor-id="critical-temperature-t_c">Critical Temperature <span class="math inline">\(T_c\)</span></h4>
+<ul>
+<li>The temperature below which a material becomes superconducting.</li>
+<li><span class="math inline">\(T_c=\frac{1.13\Delta}{k_B}\)</span>
+<ul>
+<li><span class="math inline">\(\Delta\)</span>: Energy gap</li>
+<li><span class="math inline">\(k_B\)</span>: Boltzmann constant</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="meissner-effect" class="level4">
+<h4 class="anchored" data-anchor-id="meissner-effect">Meissner Effect</h4>
+<p>The expulsion of magnetic flux lines from the interior of a superconducting material.</p>
+<p><strong>London Equations</strong>: <span id="eq-london-1"><span class="math display">\[\vec{J}=-\frac{ne^2}{m}\vec{A} \tag{2}\]</span></span> <span id="eq-london-2"><span class="math display">\[\nabla\times\vec{J}=-\frac{ne^2}{m}\vec{B} \tag{3}\]</span></span></p>
+<ul>
+<li><span class="math inline">\(\vec{J}\)</span>: Superconducting current density</li>
+<li><span class="math inline">\(\vec{A}\)</span>: Vector potential</li>
+<li><span class="math inline">\(\vec{B}\)</span>: Magnetic field</li>
+<li><span class="math inline">\(n\)</span>: Density of superconducting carriers</li>
+<li><span class="math inline">\(e\)</span>: Elementary charge</li>
+<li><span class="math inline">\(m\)</span>: Electron mass</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="basic-theory-experimental-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="basic-theory-experimental-evidence">Basic Theory: Experimental Evidence</h2>
+<ul>
+<li>Tunneling experiments</li>
+<li>Specific heat measurements</li>
+<li>Magnetic penetration depth</li>
+</ul>
+
+
+
+</section>
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
@@ -141,7 +241,7 @@ Bardeen, J., L. N. Cooper, and J. R. Schrieffer. 1957. <span>“Theory of Superc
 </ol>
 </section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bringuier2023,
   author = {Bringuier, Stefan},
-  date = {2023-09-15},
+  date = {2023-09-16},
   url = {https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html},
   langid = {en},
   abstract = {This document provides basic review of superconducting
@@ -155,7 +255,7 @@ Bardeen, J., L. N. Cooper, and J. R. Schrieffer. 1957. <span>“Theory of Superc
     plans to dive deeper into the provided references.}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-bringuier2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Bringuier, Stefan. 2023. September 15, 2023. <a href="https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html">https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html</a>.
+Bringuier, Stefan. 2023. September 16, 2023. <a href="https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html">https://stefanbringuier.github.io/CrashCourseSCMaterials//slides/basic_theory.html</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

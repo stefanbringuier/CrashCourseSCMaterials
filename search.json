@@ -56,11 +56,46 @@
     "text": "Most common complaints\n\nCooling Costs: Cryogenic systems are energy-intensive and expensive.\nMaterial Fragility: Mechanical stresses can degrade superconducting properties.\nHigh Costs: Fabrication and maintenance of superconducting materials are costly.\nLimited Current Capacity: Some materials can’t sustain high current densities.\nMaterial Complexity: Difficulties in integration with existing technologies.\n\nMany advances have been achieved in last 30 years or so to address these concerns.\n\n\n\n\n\n\nNote\n\n\nAt this point I won’t discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.\nMany others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.\n\n\n\n\n\nRT: room-temperature"
   },
   {
-    "objectID": "presentation.html#basic-theory",
-    "href": "presentation.html#basic-theory",
+    "objectID": "presentation.html#basic-theory-background",
+    "href": "presentation.html#basic-theory-background",
     "title": "Crash Course in Materials Science of Superconductors",
-    "section": "Basic Theory",
-    "text": "Basic Theory\n\nAs we saw in Figure 1, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank5.\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+    "section": "Basic Theory: Background",
+    "text": "Basic Theory: Background\n\nAs we saw in Figure 1, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank5.\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nDescribe microscopic superdconducting using quantum theory.\nSolution: Electron Cooper pairs via condesnsate state.\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+  },
+  {
+    "objectID": "presentation.html#basic-theory-cooper-pairs-low-temperature-14",
+    "href": "presentation.html#basic-theory-cooper-pairs-low-temperature-14",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)\nMathematical Foundation\nHamiltonian: \\(H = H_0 + H_{\\text{int}}\\)\n\n\\(H_0\\): Kinetic energy term\n\n\\(H_{\\text{int}}\\): Interaction term\n\nBCS Wave Function: \\[ \\left| \\Psi_{\\text{BCS}} \\right\\rangle = \\prod_k (u_k + v_k c_{k \\uparrow}^\\dagger c_{-k \\downarrow}^\\dagger ) \\left| 0 \\right\\rangle  \\qquad(1)\\]\n\n\\(u_k\\): Probability amplitude for unoccupied state\n\n\\(v_k\\): Probability amplitude for occupied state\n\n\\(c_{k \\uparrow}^\\dagger\\), \\(c_{-k \\downarrow}^\\dagger\\): Electron creation operators"
+  },
+  {
+    "objectID": "presentation.html#basic-theory-cooper-pairs-low-temperature-24",
+    "href": "presentation.html#basic-theory-cooper-pairs-low-temperature-24",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\nAdd figure"
+  },
+  {
+    "objectID": "presentation.html#basic-theory-cooper-pairs-low-temperature-34",
+    "href": "presentation.html#basic-theory-cooper-pairs-low-temperature-34",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap\n\n\\(V\\): Pairing potential\n\n\\(N(0)\\): Density of states at Fermi level\n\n\nAdd figure"
+  },
+  {
+    "objectID": "presentation.html#basic-theory-superconducting-state-property-predictions",
+    "href": "presentation.html#basic-theory-superconducting-state-property-predictions",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory: Superconducting State Property Predictions",
+    "text": "Basic Theory: Superconducting State Property Predictions\n\n\nCritical Temperature \\(T_c\\)\n\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gap\n\\(k_B\\): Boltzmann constant\n\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\qquad(2)\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\qquad(3)\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
+  },
+  {
+    "objectID": "presentation.html#basic-theory-experimental-evidence",
+    "href": "presentation.html#basic-theory-experimental-evidence",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Basic Theory: Experimental Evidence",
+    "text": "Basic Theory: Experimental Evidence\n\nTunneling experiments\nSpecific heat measurements\nMagnetic penetration depth"
   },
   {
     "objectID": "presentation.html#backmatter",
@@ -95,14 +130,49 @@
     "href": "slides/basic_theory.html",
     "title": "",
     "section": "",
-    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nDescribe microscopic superdconducting using quantum theory.\nSolution: Electron Cooper pairs via condesnsate state.\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
   },
   {
-    "objectID": "slides/basic_theory.html#basic-theory",
-    "href": "slides/basic_theory.html#basic-theory",
+    "objectID": "slides/basic_theory.html#basic-theory-background",
+    "href": "slides/basic_theory.html#basic-theory-background",
     "title": "",
     "section": "",
-    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nCooper Pairs!\nWhy Pairs? Blame the phonons.\n\n\n\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nDescribe microscopic superdconducting using quantum theory.\nSolution: Electron Cooper pairs via condesnsate state.\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
+    "title": "",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)\nMathematical Foundation\nHamiltonian: \\(H = H_0 + H_{\\text{int}}\\)\n\n\\(H_0\\): Kinetic energy term\n\n\\(H_{\\text{int}}\\): Interaction term\n\nBCS Wave Function: \\[ \\left| \\Psi_{\\text{BCS}} \\right\\rangle = \\prod_k (u_k + v_k c_{k \\uparrow}^\\dagger c_{-k \\downarrow}^\\dagger ) \\left| 0 \\right\\rangle  \\tag{1}\\]\n\n\\(u_k\\): Probability amplitude for unoccupied state\n\n\\(v_k\\): Probability amplitude for occupied state\n\n\\(c_{k \\uparrow}^\\dagger\\), \\(c_{-k \\downarrow}^\\dagger\\): Electron creation operators"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
+    "title": "",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\nAdd figure"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
+    "title": "",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap\n\n\\(V\\): Pairing potential\n\n\\(N(0)\\): Density of states at Fermi level\n\n\nAdd figure"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
+    "href": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
+    "title": "",
+    "section": "Basic Theory: Superconducting State Property Predictions",
+    "text": "Basic Theory: Superconducting State Property Predictions\n\n\n\nCritical Temperature \\(T_c\\)\n\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gap\n\\(k_B\\): Boltzmann constant\n\n\n\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\tag{2}\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\tag{3}\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-experimental-evidence",
+    "href": "slides/basic_theory.html#basic-theory-experimental-evidence",
+    "title": "",
+    "section": "Basic Theory: Experimental Evidence",
+    "text": "Basic Theory: Experimental Evidence\n\nTunneling experiments\nSpecific heat measurements\nMagnetic penetration depth"
   },
   {
     "objectID": "slides/basic_theory.html#footnotes",
