@@ -1,4 +1,4 @@
-## Basic Theory
+## Basic Theory: Background
 
 - As we saw in @fig-HgSC_HKO, there are materials where electrical conductivity drops to "exactly"^[Here I use exactly in that it is zero within measurement precision. If your device can only measure to $10^{-10}$ then you show a resistivity value on that order.] zero.
 - How is this achieved?
@@ -7,10 +7,109 @@
 ![](http://www.superconductors.org/bcs_pics.jpg){fig-align="center"}
 
 - What mechanism did they describe?
-    - Cooper Pairs! 
+    - Describe microscopic superdconducting using quantum theory.
+    - **Solution**: Electron Cooper pairs via condesnsate state.
     - Why Pairs? Blame the phonons.
 
 
 ::: aside
 BCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity.
 :::
+
+## Basic Theory: Cooper Pairs \@ Low Temperature (1/4)
+
+**Mathematical Foundation**
+
+Hamiltonian: $H = H_0 + H_{\text{int}}$  
+
+- $H_0$: Kinetic energy term  
+- $H_{\text{int}}$: Interaction term
+
+BCS Wave Function: $$ \left| \Psi_{\text{BCS}} \right\rangle = \prod_k (u_k + v_k c_{k \uparrow}^\dagger c_{-k \downarrow}^\dagger ) \left| 0 \right\rangle $$ {#eq-bcs-psi}  
+
+- $u_k$: Probability amplitude for unoccupied state  
+- $v_k$: Probability amplitude for occupied state  
+- $c_{k \uparrow}^\dagger$, $c_{-k \downarrow}^\dagger$: Electron creation operators
+
+## Basic Theory: Cooper Pairs \@ Low Temperature (2/4)
+:::: {.columns}
+
+::: {.column}
+**Role of Phonons**
+
+Electrons interact indirectly via phonons, leading to a net attractive force among pairs of $\text{e}^{-}$. $$V(q, \omega) = \frac{{2 \omega(q)}}{q^2} \chi(q, \omega)$$
+
+- $V(q, \omega)$: Electron-phonon interaction  
+- $\omega(q)$: Phonon frequency  
+- $\chi(q, \omega)$: Polarizability
+
+**Cooper Pairs**
+
+- Formed by two electrons with opposite spins and momenta.
+- Exhibit Bose-Einstein-like condensation at low temperatures.
+
+:::
+
+::: {.column}
+**Add figure**
+:::
+
+::::
+
+## Basic Theory: Cooper Pairs \@ Low Temperature (3/4)
+
+:::: {.columns}
+::: {.column}
+**Energy Gap**
+
+$\Delta = 2 \left| V \right| \sqrt{N(0) V}$  
+
+- $\Delta$: Energy gap  
+- $V$: Pairing potential  
+- $N(0)$: Density of states at Fermi level
+
+:::
+
+::: {.column}
+**Add figure**
+:::
+
+::::
+
+## Basic Theory: Superconducting State Property Predictions
+
+:::: {.columns}
+
+::: {.column}
+#### Critical Temperature $T_c$
+- The temperature below which a material becomes superconducting.
+- $T_c=\frac{1.13\Delta}{k_B}$
+    - $\Delta$: Energy gap
+    - $k_B$: Boltzmann constant
+
+:::
+
+:::{.column}
+#### Meissner Effect
+The expulsion of magnetic flux lines from the interior of a superconducting material.
+
+**London Equations**: 
+$$\vec{J}=-\frac{ne^2}{m}\vec{A}$${#eq-london-1}
+$$\nabla\times\vec{J}=-\frac{ne^2}{m}\vec{B}$${#eq-london-2}
+
+- $\vec{J}$: Superconducting current density
+- $\vec{A}$: Vector potential
+- $\vec{B}$: Magnetic field
+- $n$: Density of superconducting carriers
+- $e$: Elementary charge
+- $m$: Electron mass
+
+:::
+
+::::
+
+## Basic Theory: Experimental Evidence
+- Tunneling experiments
+- Specific heat measurements
+- Magnetic penetration depth
+
