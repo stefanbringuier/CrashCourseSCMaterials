@@ -46,11 +46,10 @@ format:
         include-in-header:
           text: |
             \usepackage{authblk}
-            \usepackage[version=4]{mhchem}
         latex-output-dir: output
         output-file: presentation_reportformat.pdf
         documentclass: scrartcl
-        fig-pos: "H"
+        #fig-pos: "H"
         output: true
         toc: true
         lof: true
@@ -81,8 +80,8 @@ Much of the notes derived from various sources, please checkout the [references]
 
 {{< include slides/why.qmd >}}
 {{< include slides/basic_theory.qmd >}}
+{{< include slides/thermo.qmd >}}
 {{< include slides/_backmatter.qmd >}}
-
 
 ## Draft Outline {.scrollable}
 

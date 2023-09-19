@@ -1,0 +1,45 @@
+## Superconducting phase
+
+::: {.panel-tabset}
+
+### Type I Superconductors
+
+:::: {.columns}
+::: {.column width=50%}
+
+
+- Exhibit perfect diamagnetism below $T_c$ (Meissner effect)
+- Expels all magnetic fields ($H= 0$) due to Cooper pairing
+- Critical magnetic field $H_c$ exists, beyond which superconductivity is destroyed
+- E.g., Aluminum (Al), Lead (Pb)
+:::
+
+::: {.column width=50%}
+
+**Add Figure contrasts Type I and Type II** 
+
+:::
+::::
+
+### Type II Superconductors
+
+:::: {.columns}
+::: {.column width=50%}
+
+- Exhibit two critical magnetic fields ($H_{c1}$ and $H_{c2}$)
+- Allow magnetic vortices to form between $H_{c1}$ and $H_{c2}$ (mixed state)
+- Usually compound or alloy materials with complex structures.
+    - Exception are Niobium and Vanadium elemental solids.
+- Often high-$T_c$ materials, enabling applications near room temperature
+- E.g., Yttrium Barium Copper Oxide (YBCO), Niobium Titanium (NbTi)
+
+:::
+
+::: {.column width=50%}
+
+**Add Figure contrasts Type I and Type II** 
+
+:::
+::::
+
+:::

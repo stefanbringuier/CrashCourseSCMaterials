@@ -51,10 +51,12 @@ Electrons interact indirectly via phonons, leading to a net attractive force amo
 - Formed by two electrons with opposite spins and momenta.
 - Exhibit Bose-Einstein-like condensation at low temperatures.
 
-![A "static" schematic of real-space cooper pair probablity distribution with coherence length $\epsilon$. Red dots are the distorted lattice positions^[Adapted from <https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair>]. ](https://thiscondensedlife.files.wordpress.com/2015/09/cooper_pair.png?w=500){#fig-cooper-pair}
+[![A "static" schematic of real-space cooper pair probablity distribution with coherence length $\epsilon$. Red dots are the distorted lattice positions ^[adapted from https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair.].](https://thiscondensedlife.files.wordpress.com/2015/09/cooper_pair.png?w=500){#fig-cooper-pair}](https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair)
+
 :::
 
 ::::
+
 
 ## Basic Theory: Cooper Pairs \@ Low Temperature (3/4)
 
