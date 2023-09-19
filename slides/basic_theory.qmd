@@ -17,7 +17,6 @@ BCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature supercondu
 :::
 
 ## Basic Theory: Cooper Pairs \@ Low Temperature (1/4)
-
 **Mathematical Foundation**
 
 Hamiltonian: $H = H_0 + H_{\text{int}}$  
@@ -43,15 +42,16 @@ Electrons interact indirectly via phonons, leading to a net attractive force amo
 - $\omega(q)$: Phonon frequency  
 - $\chi(q, \omega)$: Polarizability
 
+
+:::
+
+::: {.column}
 **Cooper Pairs**
 
 - Formed by two electrons with opposite spins and momenta.
 - Exhibit Bose-Einstein-like condensation at low temperatures.
 
-:::
-
-::: {.column}
-**Add figure**
+![A "static" schematic of real-space cooper pair probablity distribution with coherence length $\epsilon$. Red dots are the distorted lattice positions^[Adapted from <https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair>]. ](https://thiscondensedlife.files.wordpress.com/2015/09/cooper_pair.png?w=500){#fig-cooper-pair}
 :::
 
 ::::
@@ -64,14 +64,59 @@ Electrons interact indirectly via phonons, leading to a net attractive force amo
 
 $\Delta = 2 \left| V \right| \sqrt{N(0) V}$  
 
-- $\Delta$: Energy gap  
-- $V$: Pairing potential  
-- $N(0)$: Density of states at Fermi level
+- $\Delta$: Energy gap, $V$: Pairing potential, $N(0)$: Density of states at Fermi level/
+
+**Critical Temperature $T_c$**
+
+The temperature below which a material becomes superconducting.
+
+$T_c=\frac{1.13\Delta}{k_B}$
+
+- $\Delta$: Energy gag, $k_B$: Boltzmann constant
 
 :::
 
 ::: {.column}
-**Add figure**
+```{julia}
+#| label: fig-criticaltemp
+#| fig-cap: "Critical tempature as a function of energy gap."
+#| echo: false
+
+using Unitful
+import PhysicalConstants.CODATA2018: ħ, k_B
+using Plots
+
+
+
+function V(;λ=0.5,ω=1.0e13u"s^-1")
+    return -λ * ħ * ω
+end
+
+# Density of states at Fermi level N(0)
+function N(;A=0.1,Ef=1,p=1)
+    return A * Ef^p 
+end
+
+function Tc(Δ)
+    return 1.13 * Δ / k_B
+end
+
+λ = 0.1:0.1:10.0
+Ef = 0.1:0.1:1.0
+
+Vs = @. V(λ=λ)
+Δ = -Vs .* .√(N()) 
+
+Tc_values = @. Tc(Δ)
+
+# Create the plot
+plot(uconvert.(u"eV",Δ),Tc_values,
+    xscale=:log10,
+    xlabel="Gap energy",
+    ylabel="T\$_c\$",
+    )
+plot!(size=(400,400))
+```
 :::
 
 ::::
@@ -79,15 +124,6 @@ $\Delta = 2 \left| V \right| \sqrt{N(0) V}$
 ## Basic Theory: Superconducting State Property Predictions
 
 :::: {.columns}
-
-::: {.column}
-#### Critical Temperature $T_c$
-- The temperature below which a material becomes superconducting.
-- $T_c=\frac{1.13\Delta}{k_B}$
-    - $\Delta$: Energy gap
-    - $k_B$: Boltzmann constant
-
-:::
 
 :::{.column}
 #### Meissner Effect
