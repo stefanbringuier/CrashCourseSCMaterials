@@ -1,31 +1,66 @@
 [
   {
-    "objectID": "slides/why.html",
-    "href": "slides/why.html",
+    "objectID": "slides/thermo.html",
+    "href": "slides/thermo.html",
     "title": "",
     "section": "",
-    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010).\n\n\n\n\n\n\nSC: Superconductivity. Nb: Niobium"
+    "text": "Type I SuperconductorsType II Superconductors\n\n\n\n\n\nExhibit perfect diamagnetism below \\(T_c\\) (Meissner effect)\nExpels all magnetic fields (\\(H= 0\\)) due to Cooper pairing\nCritical magnetic field \\(H_c\\) exists, beyond which superconductivity is destroyed\nE.g., Aluminum (Al), Lead (Pb)\n\n\nAdd Figure contrasts Type I and Type II\n\n\n\n\n\n\n\nExhibit two critical magnetic fields (\\(H_{c1}\\) and \\(H_{c2}\\))\nAllow magnetic vortices to form between \\(H_{c1}\\) and \\(H_{c2}\\) (mixed state)\nUsually compound or alloy materials with complex structures.\n\nException are Niobium and Vanadium elemental solids.\n\nOften high-\\(T_c\\) materials, enabling applications near room temperature\nE.g., Yttrium Barium Copper Oxide (YBCO), Niobium Titanium (NbTi)\n\n\nAdd Figure contrasts Type I and Type II"
   },
   {
-    "objectID": "slides/why.html#whats-all-the-fuss",
-    "href": "slides/why.html#whats-all-the-fuss",
+    "objectID": "slides/thermo.html#superconducting-phase",
+    "href": "slides/thermo.html#superconducting-phase",
     "title": "",
     "section": "",
-    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010).\n\n\n\n\n\n\nSC: Superconductivity. Nb: Niobium"
+    "text": "Type I SuperconductorsType II Superconductors\n\n\n\n\n\nExhibit perfect diamagnetism below \\(T_c\\) (Meissner effect)\nExpels all magnetic fields (\\(H= 0\\)) due to Cooper pairing\nCritical magnetic field \\(H_c\\) exists, beyond which superconductivity is destroyed\nE.g., Aluminum (Al), Lead (Pb)\n\n\nAdd Figure contrasts Type I and Type II\n\n\n\n\n\n\n\nExhibit two critical magnetic fields (\\(H_{c1}\\) and \\(H_{c2}\\))\nAllow magnetic vortices to form between \\(H_{c1}\\) and \\(H_{c2}\\) (mixed state)\nUsually compound or alloy materials with complex structures.\n\nException are Niobium and Vanadium elemental solids.\n\nOften high-\\(T_c\\) materials, enabling applications near room temperature\nE.g., Yttrium Barium Copper Oxide (YBCO), Niobium Titanium (NbTi)\n\n\nAdd Figure contrasts Type I and Type II"
   },
   {
-    "objectID": "slides/why.html#technological-interest",
-    "href": "slides/why.html#technological-interest",
-    "title": "",
-    "section": "Technological Interest",
-    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields.\n\nStronger Magnets: Enhanced image quality and resolution.\nEnergy Efficiency: Lower operational costs due to zero resistance.\nCooling Required: Increased cost.\n\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils Wang et al. (2012).\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\nEfficient Levitation: Frictionless, high-speed travel.\nHigh Current Capacity: Ideal for powerful electromagnets in propulsion.\nDownside: Cryogenic systems maintain superconducting state.\n\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils Nishijima et al. (2013).\n\n\n\n\n\n\n\n\n\nHigh Field Strength: Enables stronger magnetic confinement in fusion.\nZero Resistance: Increases efficiency in energy storage systems.\nCooling Trade-off: Cryogenic needs offset by gains in efficiency.\n\n\n\n\n\nFigure 4: High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device Molodyk and Larbalestier (2023)."
+    "objectID": "slides/basic_theory.html",
+    "href": "slides/basic_theory.html",
+    "title": "Basic Theory: Background",
+    "section": "",
+    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957)."
   },
   {
-    "objectID": "slides/why.html#most-common-complaints",
-    "href": "slides/why.html#most-common-complaints",
-    "title": "",
-    "section": "Most common complaints",
-    "text": "Most common complaints\n\nCooling Costs: Cryogenic systems are energy-intensive and expensive.\nMaterial Fragility: Mechanical stresses can degrade superconducting properties.\nHigh Costs: Fabrication and maintenance of superconducting materials are costly.\nLimited Current Capacity: Some materials can’t sustain high current densities.\nMaterial Complexity: Difficulties in integration with existing technologies.\n\nMany advances have been achieved in last 30 years or so to address these concerns.\n\n\n\n\n\n\nNote\n\n\n\nAt this point I won’t discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.\nMany others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.\n\n\n\n\n\n\n\nRT: room-temperature"
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
+    "title": "Basic Theory: Background",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)\nMathematical Foundation\nHamiltonian: \\(H = H_0 + H_{\\text{int}}\\)\n\n\\(H_0\\): Kinetic energy term\n\n\\(H_{\\text{int}}\\): Interaction term\n\nBCS Wave Function: \\[ \\left| \\Psi_{\\text{BCS}} \\right\\rangle = \\prod_k (u_k + v_k c_{k \\uparrow}^\\dagger c_{-k \\downarrow}^\\dagger ) \\left| 0 \\right\\rangle  \\tag{1}\\]\n\n\\(u_k\\): Probability amplitude for unoccupied state\n\n\\(v_k\\): Probability amplitude for occupied state\n\n\\(c_{k \\uparrow}^\\dagger\\), \\(c_{-k \\downarrow}^\\dagger\\): Electron creation operators"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
+    "title": "Basic Theory: Background",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\n\n\nFigure 1: A “static” schematic of real-space cooper pair probablity distribution with coherence length \\(\\epsilon\\). Red dots are the distorted lattice positions 2."
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
+    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
+    "title": "Basic Theory: Background",
+    "section": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)",
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap, \\(V\\): Pairing potential, \\(N(0)\\): Density of states at Fermi level/\n\nCritical Temperature \\(T_c\\)\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gag, \\(k_B\\): Boltzmann constant\n\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 2: Critical tempature as a function of energy gap."
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
+    "href": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
+    "title": "Basic Theory: Background",
+    "section": "Basic Theory: Superconducting State Property Predictions",
+    "text": "Basic Theory: Superconducting State Property Predictions\n\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\tag{2}\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\tag{3}\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
+  },
+  {
+    "objectID": "slides/basic_theory.html#basic-theory-experimental-evidence",
+    "href": "slides/basic_theory.html#basic-theory-experimental-evidence",
+    "title": "Basic Theory: Background",
+    "section": "Basic Theory: Experimental Evidence",
+    "text": "Basic Theory: Experimental Evidence\n\nTunneling experiments\nSpecific heat measurements\nMagnetic penetration depth"
+  },
+  {
+    "objectID": "slides/basic_theory.html#footnotes",
+    "href": "slides/basic_theory.html#footnotes",
+    "title": "Basic Theory: Background",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order.↩︎\nadapted from https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair.↩︎"
   },
   {
     "objectID": "presentation.html#some-comments",
@@ -74,21 +109,21 @@
     "href": "presentation.html#basic-theory-cooper-pairs-low-temperature-24",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)",
-    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\nAdd figure"
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\n\n\nFigure 5: A “static” schematic of real-space cooper pair probablity distribution with coherence length \\(\\epsilon\\). Red dots are the distorted lattice positions 2."
   },
   {
     "objectID": "presentation.html#basic-theory-cooper-pairs-low-temperature-34",
     "href": "presentation.html#basic-theory-cooper-pairs-low-temperature-34",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)",
-    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap\n\n\\(V\\): Pairing potential\n\n\\(N(0)\\): Density of states at Fermi level\n\n\nAdd figure"
+    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap, \\(V\\): Pairing potential, \\(N(0)\\): Density of states at Fermi level/\n\nCritical Temperature \\(T_c\\)\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gag, \\(k_B\\): Boltzmann constant\n\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 6: Critical tempature as a function of energy gap."
   },
   {
     "objectID": "presentation.html#basic-theory-superconducting-state-property-predictions",
     "href": "presentation.html#basic-theory-superconducting-state-property-predictions",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Basic Theory: Superconducting State Property Predictions",
-    "text": "Basic Theory: Superconducting State Property Predictions\n\n\nCritical Temperature \\(T_c\\)\n\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gap\n\\(k_B\\): Boltzmann constant\n\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\qquad(2)\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\qquad(3)\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
+    "text": "Basic Theory: Superconducting State Property Predictions\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\qquad(2)\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\qquad(3)\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
   },
   {
     "objectID": "presentation.html#basic-theory-experimental-evidence",
@@ -96,6 +131,13 @@
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Basic Theory: Experimental Evidence",
     "text": "Basic Theory: Experimental Evidence\n\nTunneling experiments\nSpecific heat measurements\nMagnetic penetration depth"
+  },
+  {
+    "objectID": "presentation.html#superconducting-phase",
+    "href": "presentation.html#superconducting-phase",
+    "title": "Crash Course in Materials Science of Superconductors",
+    "section": "Superconducting phase",
+    "text": "Superconducting phase\n\nType I SuperconductorsType II Superconductors\n\n\n\n\n\nExhibit perfect diamagnetism below \\(T_c\\) (Meissner effect)\nExpels all magnetic fields (\\(H= 0\\)) due to Cooper pairing\nCritical magnetic field \\(H_c\\) exists, beyond which superconductivity is destroyed\nE.g., Aluminum (Al), Lead (Pb)\n\n\nAdd Figure contrasts Type I and Type II\n\n\n\n\n\n\n\nExhibit two critical magnetic fields (\\(H_{c1}\\) and \\(H_{c2}\\))\nAllow magnetic vortices to form between \\(H_{c1}\\) and \\(H_{c2}\\) (mixed state)\nUsually compound or alloy materials with complex structures.\n\nException are Niobium and Vanadium elemental solids.\n\nOften high-\\(T_c\\) materials, enabling applications near room temperature\nE.g., Yttrium Barium Copper Oxide (YBCO), Niobium Titanium (NbTi)\n\n\nAdd Figure contrasts Type I and Type II"
   },
   {
     "objectID": "presentation.html#backmatter",
@@ -123,62 +165,34 @@
     "href": "presentation.html#footnotes",
     "title": "Crash Course in Materials Science of Superconductors",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order."
+    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order.\nadapted from https://thiscondensedlife.wordpress.com/2015/09/12/draw-me-a-picture-of-a-cooper-pair."
   },
   {
-    "objectID": "slides/basic_theory.html",
-    "href": "slides/basic_theory.html",
+    "objectID": "slides/why.html",
+    "href": "slides/why.html",
     "title": "",
     "section": "",
-    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nDescribe microscopic superdconducting using quantum theory.\nSolution: Electron Cooper pairs via condesnsate state.\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010).\n\n\n\n\n\n\nSC: Superconductivity. Nb: Niobium"
   },
   {
-    "objectID": "slides/basic_theory.html#basic-theory-background",
-    "href": "slides/basic_theory.html#basic-theory-background",
+    "objectID": "slides/why.html#whats-all-the-fuss",
+    "href": "slides/why.html#whats-all-the-fuss",
     "title": "",
     "section": "",
-    "text": "As we saw in ?@fig-HgSC_HKO, there are materials where electrical conductivity drops to “exactly”1 zero.\nHow is this achieved?\n\nWell at low-temperature we have Bardeen, Cooper, and Schrieffer (BCS) to thank Bardeen, Cooper, and Schrieffer (1957).\n\n\n\n\n\n\n\n\nWhat mechanism did they describe?\n\nDescribe microscopic superdconducting using quantum theory.\nSolution: Electron Cooper pairs via condesnsate state.\nWhy Pairs? Blame the phonons.\n\n\n\n\nBCS Theory: Bardeen, Cooper, and Schrieffer theory of low-temperature superconductivity."
+    "text": "Why did anyone care to begin with?\n\nThey didn’t. Initially Heike Kamerlingh Onnes Delft and Kes (2010) and others were just interested in cryogenics.\nOnce they achieved liquid Helium, they asked why note study conductive metals at these temperatures.\nIn 1911 Kamerlingh Onnes started with elemental Mercury, 💥 the field of superconductivity (SC) was born.\n\nPhyscist focused on measurement of other elemental solides and a theory.\nObservation of SC in Nb is really what begun technological use.\n\n\n\n\n\nFigure 1: Original plot of Hg transition temperature to SC phase Delft and Kes (2010).\n\n\n\n\n\n\nSC: Superconductivity. Nb: Niobium"
   },
   {
-    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
-    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-14",
+    "objectID": "slides/why.html#technological-interest",
+    "href": "slides/why.html#technological-interest",
     "title": "",
-    "section": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)",
-    "text": "Basic Theory: Cooper Pairs @ Low Temperature (1/4)\nMathematical Foundation\nHamiltonian: \\(H = H_0 + H_{\\text{int}}\\)\n\n\\(H_0\\): Kinetic energy term\n\n\\(H_{\\text{int}}\\): Interaction term\n\nBCS Wave Function: \\[ \\left| \\Psi_{\\text{BCS}} \\right\\rangle = \\prod_k (u_k + v_k c_{k \\uparrow}^\\dagger c_{-k \\downarrow}^\\dagger ) \\left| 0 \\right\\rangle  \\tag{1}\\]\n\n\\(u_k\\): Probability amplitude for unoccupied state\n\n\\(v_k\\): Probability amplitude for occupied state\n\n\\(c_{k \\uparrow}^\\dagger\\), \\(c_{-k \\downarrow}^\\dagger\\): Electron creation operators"
+    "section": "Technological Interest",
+    "text": "Technological Interest\n\nMagnetic Resonance ImagingMagLev TrainsEnergy Storage/Production\n\n\n\n\n\nSuperconducting coils allow for high magnetic fields.\n\nStronger Magnets: Enhanced image quality and resolution.\nEnergy Efficiency: Lower operational costs due to zero resistance.\nCooling Required: Increased cost.\n\n\n\n\n\n\nFigure 2: Cut-throught showing MRI machine and SC coils Wang et al. (2012).\n\n\n\n\n\n\n\n\n\nSuperconducting materials enable high-speed rail.\n\nEfficient Levitation: Frictionless, high-speed travel.\nHigh Current Capacity: Ideal for powerful electromagnets in propulsion.\nDownside: Cryogenic systems maintain superconducting state.\n\n\n\n\n\n\nFigure 3: Superconductors are onboard train which interact with propolsion rail coils Nishijima et al. (2013).\n\n\n\n\n\n\n\n\n\nHigh Field Strength: Enables stronger magnetic confinement in fusion.\nZero Resistance: Increases efficiency in energy storage systems.\nCooling Trade-off: Cryogenic needs offset by gains in efficiency.\n\n\n\n\n\nFigure 4: High-temperature SC (ex., REBCO) used in a magnetic fusion torodial device Molodyk and Larbalestier (2023)."
   },
   {
-    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
-    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-24",
+    "objectID": "slides/why.html#most-common-complaints",
+    "href": "slides/why.html#most-common-complaints",
     "title": "",
-    "section": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)",
-    "text": "Basic Theory: Cooper Pairs @ Low Temperature (2/4)\n\n\nRole of Phonons\nElectrons interact indirectly via phonons, leading to a net attractive force among pairs of \\(\\text{e}^{-}\\). \\[V(q, \\omega) = \\frac{{2 \\omega(q)}}{q^2} \\chi(q, \\omega)\\]\n\n\\(V(q, \\omega)\\): Electron-phonon interaction\n\n\\(\\omega(q)\\): Phonon frequency\n\n\\(\\chi(q, \\omega)\\): Polarizability\n\nCooper Pairs\n\nFormed by two electrons with opposite spins and momenta.\nExhibit Bose-Einstein-like condensation at low temperatures.\n\n\nAdd figure"
-  },
-  {
-    "objectID": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
-    "href": "slides/basic_theory.html#basic-theory-cooper-pairs-low-temperature-34",
-    "title": "",
-    "section": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)",
-    "text": "Basic Theory: Cooper Pairs @ Low Temperature (3/4)\n\n\nEnergy Gap\n\\(\\Delta = 2 \\left| V \\right| \\sqrt{N(0) V}\\)\n\n\\(\\Delta\\): Energy gap\n\n\\(V\\): Pairing potential\n\n\\(N(0)\\): Density of states at Fermi level\n\n\nAdd figure"
-  },
-  {
-    "objectID": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
-    "href": "slides/basic_theory.html#basic-theory-superconducting-state-property-predictions",
-    "title": "",
-    "section": "Basic Theory: Superconducting State Property Predictions",
-    "text": "Basic Theory: Superconducting State Property Predictions\n\n\n\nCritical Temperature \\(T_c\\)\n\nThe temperature below which a material becomes superconducting.\n\\(T_c=\\frac{1.13\\Delta}{k_B}\\)\n\n\\(\\Delta\\): Energy gap\n\\(k_B\\): Boltzmann constant\n\n\n\n\n\nMeissner Effect\nThe expulsion of magnetic flux lines from the interior of a superconducting material.\nLondon Equations: \\[\\vec{J}=-\\frac{ne^2}{m}\\vec{A} \\tag{2}\\] \\[\\nabla\\times\\vec{J}=-\\frac{ne^2}{m}\\vec{B} \\tag{3}\\]\n\n\\(\\vec{J}\\): Superconducting current density\n\\(\\vec{A}\\): Vector potential\n\\(\\vec{B}\\): Magnetic field\n\\(n\\): Density of superconducting carriers\n\\(e\\): Elementary charge\n\\(m\\): Electron mass"
-  },
-  {
-    "objectID": "slides/basic_theory.html#basic-theory-experimental-evidence",
-    "href": "slides/basic_theory.html#basic-theory-experimental-evidence",
-    "title": "",
-    "section": "Basic Theory: Experimental Evidence",
-    "text": "Basic Theory: Experimental Evidence\n\nTunneling experiments\nSpecific heat measurements\nMagnetic penetration depth"
-  },
-  {
-    "objectID": "slides/basic_theory.html#footnotes",
-    "href": "slides/basic_theory.html#footnotes",
-    "title": "",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nHere I use exactly in that it is zero within measurement precision. If your device can only measure to \\(10^{-10}\\) then you show a resistivity value on that order.↩︎"
+    "section": "Most common complaints",
+    "text": "Most common complaints\n\nCooling Costs: Cryogenic systems are energy-intensive and expensive.\nMaterial Fragility: Mechanical stresses can degrade superconducting properties.\nHigh Costs: Fabrication and maintenance of superconducting materials are costly.\nLimited Current Capacity: Some materials can’t sustain high current densities.\nMaterial Complexity: Difficulties in integration with existing technologies.\n\nMany advances have been achieved in last 30 years or so to address these concerns.\n\n\n\n\n\n\nNote\n\n\n\nAt this point I won’t discuss why these are addressible with advances in refrigeration and processing techonology, but this is how I would approach it 😄. Will touch on this at the very end.\nMany others seek room-temperature (RT) superconductors. These many exist but who knows if they would have other suitable properties or current processing approaches would work.\n\n\n\n\n\n\n\nRT: room-temperature"
   }
 ]

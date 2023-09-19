@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/slides/why.html</loc>
-    <lastmod>2023-09-17T05:02:48.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/presentation.html</loc>
-    <lastmod>2023-09-17T05:02:47.628Z</lastmod>
+    <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/slides/thermo.html</loc>
+    <lastmod>2023-09-19T18:46:51.002Z</lastmod>
   </url>
   <url>
     <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/slides/basic_theory.html</loc>
-    <lastmod>2023-09-17T05:02:48.016Z</lastmod>
+    <lastmod>2023-09-19T18:46:50.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/presentation.html</loc>
+    <lastmod>2023-09-19T18:46:35.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stefanbringuier.github.io/CrashCourseSCMaterials/slides/why.html</loc>
+    <lastmod>2023-09-19T18:46:50.594Z</lastmod>
   </url>
 </urlset>
